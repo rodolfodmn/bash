@@ -1,2 +1,2 @@
 #!/bin/bash
-atom ~/dev
+code ~/dev
