@@ -10,6 +10,12 @@ elif [ -n "$1" ]; then
     elif [ "$1" == 'l' ]; then
         echo 'install gitlab store script :)'
         php ~/dev/php_bash/storeLabInstall.php
+    elif [ "$1" == 'dev' ]; then
+        echo 'install dev, isso mesmo rodolfo coisas novas  ;)'
+        php ~/dev/php_bash/storeInstall_dev.php
+    elif [ "$1" == 'ng' ]; then
+        echo 'install dev, isso mesmo rodolfo coisas novas  ;)'
+        php ~/dev/php_bash/storeInstall.php 1
     else
         echo "seu parametro nao deve estar incorreto :("
     fi
