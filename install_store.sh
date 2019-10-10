@@ -14,7 +14,7 @@ elif [ -n "$1" ]; then
         echo 'install dev, isso mesmo rodolfo coisas novas  ;)'
         php ~/dev/php_bash/storeInstall_dev.php
     elif [ "$1" == 'ng' ]; then
-        echo 'install dev, isso mesmo rodolfo coisas novas  ;)'
+        echo 'install sem abrir no navegador  ;)'
         php ~/dev/php_bash/storeInstall.php 1
     else
         echo "seu parametro nao deve estar incorreto :("

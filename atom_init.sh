@@ -1,2 +1,2 @@
 #!/bin/bash
-code ~/dev
+code ~/dev/util
